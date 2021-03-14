@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+/* header */
+header img {
+    width: 170px;
+    color: #000;
+    margin-left: 2rem;
+}
+header {
+    background-color: #181818;
+    padding: 1rem;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+header ul a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+    display: block;
+    margin-top: 1.8rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+header nav #nav-btn a {
+    background-color: #BD8276;
+    padding: .5rem 1rem;
+    margin-top: 2.23rem;
+    border-radius: 5px;
+}
+/* end of header */
+
+/* MAIN */
+/* hero section */
+main section.hero {
+    height: 37vh;
+    margin-top: 0;
+    padding-top: 15rem;
+    background: url(./Images/nsplsh_616c533765775134314d38_mv2_d_5847_3898_s_4_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+main section.hero div h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: #BD8276;
+}
+/* end of hero section */
+
+/* visinary section */
+main section.visionary {
+    background-color: #BD8276;
+}
+main section.visionary .visionary-div  {
+    display: flex;
+    justify-content: center;
+    background-color: #BD8276;
+    width: 70%;
+    margin: 0 auto;
+}
+main section.visionary .info {
+    background-color: #181818;
+    color: #fff;
+    padding:3rem;
+    width: 403px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+main section.visionary .info h3 {
+    color: #BD8276;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+main section.visionary .info h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+main section.visionary .info p {
+    margin-bottom: 1rem;
+    font-weight: 300;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: .8rem;
+}
+main section.visionary .info a {
+    background-color: #BD8276;
+    padding: .5rem 1rem;
+    margin-top: 2.23rem;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    font-size: 1rem;
+}
+main section.visionary img {
+    margin-top: 1.5rem;
+    height: 452px;
+    padding-top: 3.1rem;
+}
+/* end of visionary */
+/* portfolio section */
+main section.portfolio {
+    background-color: #181818;
+    color: #BD8276;
+    padding-bottom: 4rem;
+}
+main section.portfolio h3 {
+    text-align: center;
+    padding: 4rem;
+    font-size: 2rem;
+}
+.img-1 {grid-area: img1;}
+.img-2 {grid-area: img2;}
+.img-3 {grid-area: img3;}
+.img-4 {grid-area: img4;}
+.img-5 {grid-area: img5;}
+.img-6 {grid-area: img6;}
+main section.portfolio .portfolio-img {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    width: 50%;
+    margin: 0 auto;
+    grid-gap: 5px;
+    grid-template-areas: 'img1 img1 img2' 
+                         'img1 img1 img3'
+                         'img4 img5 img6'
+}
+
+main section.portfolio .portfolio-img img {
+    width: 100%;
+    height: auto;
+}
+/* end of portfolio */
+/* curriculum vitae section */
+main section.curriculum {
+    background-color: #BD8276;
+    color: #fff;
+}
+main section.curriculum div#curriculum {
+    display: flex;
+    justify-content: space-around;
+}
+main section.curriculum div#curriculum .curriculum-info {
+    margin: 2rem 6rem;
+}
+
+main section.curriculum div#curriculum .curriculum-info h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+main section.curriculum div#curriculum .curriculum-info p {
+    margin-bottom: 2.3rem;
+    font-weight: 300;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: .8rem;
+}
+main section.curriculum div#curriculum .curriculum-info .info-group {
+    display: flex;
+}
+main section.curriculum div#curriculum .curriculum-info .info-group div {
+    padding-left: 1rem;
+}  
+div#curriculum .curriculum-info .info-group div h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+div#curriculum .curriculum-info .info-group div h5 {
+    font-size: 1.1rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+}
+div#curriculum .curriculum-info .info-group div h6 {
+    font-weight: 300;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: .8rem;
+    padding: .5rem 0;
+}
+div#curriculum .curriculum-info .info-group div a  {
+    color: #fff;
+    text-decoration: none;
+}
+div#curriculum .curriculum-info .info-group i {
+    margin-top: .5rem;
+}
+/* End of curriculum */
+/* Contact section */
+main section.contact {
+    background-color: #181818;
+    color: #fff;
+    padding: 1rem;
+}
+main section.contact #contact {
+    width: 60%;
+    margin: 0 auto;
+}
+
+main section.contact #contact h3 {
+    color: #BD8276;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+main section.contact #contact p {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+main section.contact #contact form {
+    margin-top: 3rem;
+}
+main section.contact #contact input, textarea {
+    display: block;
+    margin: 1rem auto;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: .8rem 1rem;
+    width: 100%;
+}
+textarea::placeholder {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+main section.contact #contact button {
+    background-color: #BD8276;
+    padding: .5rem 1rem;
+    margin-top: 2.23rem;
+    border-radius: 5px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
