@@ -34,6 +34,7 @@ header ul a {
     display: block;
     margin-top: 1.8rem;
     font-family: 'Noto Sans JP', sans-serif;
+    font-size: .7rem;
 }
 header nav #nav-btn a {
     background-color: #BD8276;
@@ -200,6 +201,10 @@ div#curriculum .curriculum-info .info-group div a  {
 div#curriculum .curriculum-info .info-group i {
     margin-top: .5rem;
 }
+div#curriculum img {
+    width: 100%;
+    height: 100%;
+}
 /* End of curriculum */
 /* Contact section */
 main section.contact {
@@ -248,3 +253,39 @@ main section.contact #contact button {
     margin: 0 auto;
 }
 
+
+@media screen and (max-width:1000px) {
+    main section.hero div h1 {
+        font-size: 2.4rem;  
+    }
+    main section.hero {
+        padding-top: 10rem;
+    }
+    main section.curriculum div#curriculum .curriculum-info .info-group div {
+        padding-left: .5rem;
+    } 
+    main section.curriculum div#curriculum img {
+        display: none;
+    } 
+    main section.curriculum div#curriculum .curriculum-info {
+        margin-left: 20rem;
+    }
+
+}
+@media screen and (max-width:900px) {
+    main section.hero div h1 {
+        font-size: 2.4rem;
+        padding-bottom: 3rem;
+        
+    }
+    main section.visionary img {
+        display: none;
+    }
+    main section.curriculum div#curriculum .curriculum-info {
+        margin-left: 12rem;
+    }
+    header {
+        background-color: red;
+    }
+ 
+}
