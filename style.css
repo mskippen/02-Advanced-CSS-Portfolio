@@ -34,7 +34,7 @@ header ul a {
     display: block;
     margin-top: 1.8rem;
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: .7rem;
+    font-size: .5rem;
 }
 header nav #nav-btn a {
     background-color: #BD8276;
@@ -284,8 +284,4 @@ main section.contact #contact button {
     main section.curriculum div#curriculum .curriculum-info {
         margin-left: 12rem;
     }
-    header {
-        background-color: red;
-    }
- 
 }
