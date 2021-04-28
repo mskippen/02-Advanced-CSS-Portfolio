@@ -21,8 +21,8 @@ The following image shows the web application's appearance and functionality:
 MIT
 
 # Collaborators
-Github: https://github.com/mskippen
-Email: msmskippen@gmail.com
-Github link: https://github.com/mskippen/02-Advanced-CSS-Portfolio.git
+Github: https://github.com/mskippen<br>
+Email: msmskippen@gmail.com<br>
+Github link: https://github.com/mskippen/02-Advanced-CSS-Portfolio.git<br>
 
 © 2021 Project Agents Pty Ltd. Confidential and Proprietary. All Rights Reserved.
