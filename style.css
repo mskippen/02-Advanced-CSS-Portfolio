@@ -391,7 +391,7 @@ main section.contact #contact button {
     font-size: 1.5rem;
     margin-top: 1rem;
 }
-.navbar-nav a:hover, .burgermenu a:hover {
+header nav ul a:hover, .burgermenu a:hover {
     color: #BD8276;
 }
 @media screen and (max-width:1000px) {
