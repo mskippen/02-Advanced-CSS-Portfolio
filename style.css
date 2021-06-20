@@ -54,7 +54,7 @@ header nav #nav-btn a {
 /* MAIN */
 /* hero section */
 main section.hero {
-    height: 57vh;
+    height: 100vh;
     margin-top: 0;
     padding-top: 15rem;
     background: url(./Images/nsplsh_616c533765775134314d38_mv2_d_5847_3898_s_4_2.jpg);
@@ -65,6 +65,8 @@ main section.hero div h1 {
     text-align: center;
     font-size: 4rem;
     color: #BD8276;
+    font-family: "San Serif";
+    font-weight: 600;
 }
 /* end of hero section */
 
@@ -92,6 +94,8 @@ main section.visionary .info h3 {
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 2rem;
+    font-family: "San Serif";
+    font-weight: 600;
 }
 main section.visionary .info h5 {
     font-size: 1rem;
@@ -196,6 +200,8 @@ section.services h1 {
     color: #BD8276;
     padding: 3rem;
     font-size: 2rem;
+    font-family: "San Serif";
+    font-weight: 600;
 }
 section.services .services-column {
     display: grid;
@@ -212,6 +218,8 @@ section.services .services-column h3 {
     font-size: 1.5rem;
     margin-bottom: 25px;
     text-transform: capitalize;
+    font-family: "San Serif";
+    font-weight: 600;
 }
 section.services .service-grid div:nth-of-type(1) {
     text-transform: uppercase;
@@ -275,6 +283,8 @@ main section.portfolio h3 {
     text-align: center;
     padding: 3rem;
     font-size: 2rem;
+    font-family: "San Serif";
+    font-weight: 600;
 }
 main section.portfolio h5 {
     text-align: center;
@@ -309,7 +319,7 @@ main section.portfolio .web-portfolio h5 {
 }
 main section.portfolio .web-portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 5px;
 }
 main section.portfolio .web-portfolio-grid img {
@@ -323,7 +333,7 @@ main section.portfolio .portfolio-img img {
 /* end of portfolio */
 /* Contact section */
 main section.contact {
-    background-color: lightgray;
+    background-color: #BD8276;
     color: #fff;
     padding: 1rem;
 }
@@ -333,17 +343,19 @@ main section.contact #contact {
 }
 
 main section.contact #contact h3 {
-    color: #BD8276;
+    color: #000;
     font-size: 2rem;
     font-weight: 650;
     margin-bottom: 2rem;
     text-align: center;
+    font-family: "San Serif";
+    font-weight: 600;
 }
 main section.contact #contact p {
     text-align: center;
     margin-bottom: 1rem;
     font-family: 'Noto Sans JP', sans-serif;
-    color: darkgray;
+    color: #000;
 }
 main section.contact #contact form {
     margin-top: 3rem;
@@ -351,16 +363,17 @@ main section.contact #contact form {
 main section.contact #contact input, textarea {
     display: block;
     margin: 1rem auto;
-    background: transparent;
+    background: #fff;
     border: 1px solid #fff;
     padding: .8rem 1rem;
     width: 100%;
 }
 textarea::placeholder {
     font-family: 'Noto Sans JP', sans-serif;
+    counter-reset: #000;
 }
 main section.contact #contact button {
-    background-color: #BD8276;
+    background-color: #000;
     padding: .5rem 1rem;
     margin-top: 2.23rem;
     border-radius: 5px;
@@ -372,7 +385,19 @@ main section.contact #contact button {
 }
 
 
+.navbar-nav a {
+    font-family: "san-serif";
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.navbar-nav a:hover, .burgermenu a:hover {
+    color: #BD8276;
+}
 @media screen and (max-width:1000px) {
+    .burgermenu {
+        margin-left: 0;
+    }
     main section.hero div h1 {
         font-size: 2.4rem;  
     }
@@ -424,5 +449,15 @@ main section.contact #contact button {
     }
     main section.portfolio .web-portfolio h5 {
         margin-bottom: 0;
+    }
+    main section.visionary .info a {
+        width: 60%;
+        margin: 1.23rem auto;
+    }
+    main section.visionary .info p {
+        text-align: center;
+    }
+    main section.portfolio .web-portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }

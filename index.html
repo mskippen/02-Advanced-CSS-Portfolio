@@ -14,22 +14,31 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
   <body>
     <header>
       <nav>
         <div class="burgermenu">
-          <a href="#contact-us"> <i class="fa fa-bars"></i></a>
+          <a href="#" type="button" data-toggle="collapse" data-target="#hidden-nav"> <i class="fa fa-bars"></i></a>
         </div>
         <ul>
           <li class="nav-item"><a href="#">Home</a></li>
           <li class="nav-item"><a href="#visionary">Visionary</a></li>
-          <li class="nav-item"><a href="#curriculum-vitae">Curriculum Vitae</a></li>
           <li class="nav-item"><a href="#services">Services</a></li>
           <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
           <li class="nav-item" id="nav-btn"><a href="#contact-us">Contact Us</a></li>
         </ul>
       </nav>
+      <div class="collapse navbar-collapse d-lg-none" id="hidden-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#visionary">Visionary</a></li>
+          <li class="nav-item"><a href="#services">Services</a></li>
+          <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+          <li class="nav-item" id="nav-btn"><a href="#contact-us">Contact Us</a></li>
+        </ul>
+      </div>
     </header>
 
     <main>
@@ -62,66 +71,7 @@
           </div>
         </div>
       </section>
-      <section id="curriculum-vitae" class="curriculum">
-        <div id="curriculum">
-          <div class="curriculum-img">
-            <img
-              src="./Images/nsplsh_67334f355a74526b324534_mv2_d_5184_3456_s_4_2.jpg"
-              alt=""
-            />
-          </div>
-          <div class="curriculum-info">
-            <h3>Curriculum Vitae</h3>
-            <p>
-              I can project manage an extensive array of marketing, communication and web solutions. Browse my previous roles below in design consultancy, private equity, property, sports, and entertainment industries.
-            </p>
-            <div>
-              <div class="info-group">
-                <i class="fas fa-bullseye"></i>
-                <div>
-                  <h4>Marketing Consultancy and Design</h4>
-                  <h5>Project Agents</h5>
-                  <a href="https://mskippen.github.io/02-Advanced-CSS-Portfolio/"><h6>Website</h6></a>
-                </div>
-              </div>
-                <div class="info-group">
-                  <i class="fas fa-bullseye"></i>
-                  <div>
-                    <h4>Head of Marketing</h4>
-                    <h5>Centennial Property Group</h5>
-                    <a href="https://centennial.com.au/"><h6>Website</h6></a>
-                  </div>
-                </div>
-              <div class="info-group">
-                <i class="fas fa-bullseye"></i>
-                <div>
-                  <h4>Head of Marketing and Communications</h4>
-                  <h5>Greenland Australia</h5>
-                  <a href="https://www.greenlandaustralia.com.au/en/"><h6>Website</h6></a>
-                </div>
-              </div>
-              <div class="info-group">
-                <i class="fas fa-bullseye"></i>
-                <div>
-                  <h4>Head of Marketing and Public Relations</h4>
-                  <h5>Meriton</h5>
-                  <a href="https://www.meriton.com.au/"><h6>Website</h6></a>
-                </div>
-              </div>
-              <div class="info-group">
-                <i class="fas fa-bullseye"></i>
-                <div>
-                  <h4>Head of Fan Engagement</h4>
-                  <h5>Waratahs Rugby</h5>
-                  <a href="https://nsw.rugby/"><h6>Website</h6></a>
-                </div>
-              </div>
-             
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="services" id="services">
+        <section class="services" id="services">
         <h1>Services</h1>
         <div class="service-box">
           <div class="services-column">
@@ -230,7 +180,7 @@
       <section id="portfolio" class="portfolio">
         <div class="portfolio-div">
           <h3>Portfolio</h3>
-          <h5>Project Consultancy</h5>
+          <h5>Marketing Consultancy</h5>
           <div class="portfolio-img">
             <a class="img-1" href="https://greenlandcentre.com.au/">
               <img src="./Images/img-1.jpg" alt="" />
@@ -254,23 +204,24 @@
           <div class="web-portfolio">
             <h5>Web Design and Development</h5>
             <div class="web-portfolio-grid">
-              <a href="https://mskippen.github.io/whats-in-my-pantry/">
+              <a href="https://mskippen.github.io/whats-in-my-pantry/" target="_blank">
                 <img src="./Images/img-7.jpg" alt="">
               </a>
-              <a href="https://mskippen.github.io/Weather-Dashboard/">
-                <img src="./Images/img-8.jpg" alt="">
-              </a>
-              <a href="https://mskippen.github.io/05-Work-Day-Scheduler/">
-                <img src="./Images/img-9.jpg" alt="">
-              </a>
-              <a href="https://github.com/mskippen/whats-in-my-pantry.git">
+              <a href="https://github.com/mskippen/whats-in-my-pantry.git" target="_blank">
                 <img src="./Images/img-10.jpg" alt="">
               </a>
-              <a href="https://github.com/mskippen/Weather-Dashboard.git">
-                <img src="./Images/img-11.jpg" alt="">
+              
+              <a href="https://projectify-marketing-app.herokuapp.com/" target="_blank">
+                <img src="./Images/projectify.png" alt="">
               </a>
-              <a href="https://github.com/mskippen/05-Work-Day-Scheduler.git">
-                <img src="./Images/img-12.jpg" alt="">
+              <a href="https://github.com/mskippen/Projectify" target="_blank">
+                <img src="./Images/projectify-git.png" alt="">
+              </a>
+              <a href="https://news-blog-mskippen.herokuapp.com/" target="_blank">
+                <img src="./Images/news-blog.png" alt="">
+              </a>
+              <a href="https://github.com/mskippen/14-News-Blog" target="_blank">
+                <img src="./Images/news-blog-git.png" alt="">
               </a>
             </div>
           </div>
@@ -287,10 +238,14 @@
               <input type="text" placeholder="Phone Number">
               <input type="text" placeholder="Subject">
               <textarea placeholder="Type your message here" cols="30" rows="10"></textarea>
-              <button>Submit</button>
+              <button class="my-3">Submit</button>
           </form>
         </div>
       </section>
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
